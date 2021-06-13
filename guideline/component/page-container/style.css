@@ -1,0 +1,36 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-height: 100%;
+    background: #f3f3f3;
+}
+
+.page-container>.container {
+    flex: 1;
+    margin-bottom: 24px;
+}
+
+.page-container .title {
+    display: block;
+    font-size: 26px;
+    line-height: 1.2;
+    margin: 0 0 24px;
+}
+
+.page-container .blocks-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.container {
+    position: relative;
+    box-sizing: border-box;
+    background: white;
+    max-width: 1440px;
+    width: 100%;
+    padding: 15px 30px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+}

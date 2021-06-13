@@ -1,0 +1,54 @@
+.burger {
+  display: none;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border: none;
+  outline: none;
+  background: transparent;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+.burger>span {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 3px;
+    background: #1939DE;
+    transition: background 0.3s;
+}
+.burger>span::before, .burger>span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #1939DE;
+  content: '';
+  transition: top 0.3s, bottom 0.3s, transform 0.3s;
+}
+.burger>span::before {
+   top: -10px;
+}
+.burger>span::after {
+   bottom: -10px;
+}
+.burger.close span {
+    background: none;
+}
+.burger.close span::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+.burger.close span::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+}
+
+@media (max-width: 992px) {
+  .burger {
+    display: inline-block;
+  }
+}

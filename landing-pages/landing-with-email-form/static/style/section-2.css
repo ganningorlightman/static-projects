@@ -1,0 +1,187 @@
+.section-2 {
+    display: flex;
+    width: 100%;
+    background: #FFFFFF;
+    padding: 120px 0 150px;
+}
+.section-2 .container {
+    justify-content: space-between;
+}
+.section-2 .container .left-block {
+    display: flex;
+    flex-direction: column;
+}
+.section-2 .container .left-block .title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 80px;
+}
+.section-2 .container .left-block .list-item {
+    position: relative;
+    max-width: 515px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    padding-left: 83px;
+    margin-bottom: 48px;
+}
+.section-2 .container .left-block .list-item.last {
+    margin-bottom: 23px;
+}
+.section-2 .container .left-block .list-item:before {
+    content: "";
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 0;
+    top: calc(50% - 24px);
+    background: url("../img/check.png");
+    background-size: cover;
+}
+.section-2 .container .left-block .prompt {
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 83px;
+}
+.section-2 .container .right-block {
+    display: flex;
+    max-width: 488px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 140px 68px;
+}
+.section-2 .container .right-block .title {
+    color: #1939DE;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.section-2 .container .right-block .description {
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .section-2 {
+
+    }
+    .section-2 .container .left-block {
+
+    }
+    .section-2 .container .left-block .title {
+
+    }
+    .section-2 .container .left-block .list-item {
+
+    }
+    .section-2 .container .left-block .prompt {
+
+    }
+    .section-2 .container .right-block {
+
+    }
+    .section-2 .container .right-block .title {
+
+    }
+    .section-2 .container .right-block .description {
+
+    }
+}
+
+@media (max-width: 992px) {
+    .section-2 {
+        padding: 60px 0;
+    }
+    .section-2 .container {
+        align-items: center;
+    }
+    .section-2 .container .left-block {
+
+    }
+    .section-2 .container .left-block .title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 56px;
+    }
+    .section-2 .container .left-block .list-item {
+        max-width: 310px;
+        font-size: 16px;
+        line-height: 20px;
+        padding-left: 42px;
+        margin-bottom: 32px;
+    }
+    .section-2 .container .left-block .list-item:before {
+        width: 30px;
+        height: 30px;
+        top: calc(50% - 15px);
+    }
+    .section-2 .container .left-block .list-item.last {
+        margin-bottom: 12px;
+    }
+    .section-2 .container .left-block .prompt {
+        font-size: 12px;
+        line-height: 14px;
+        padding-left: 42px;
+    }
+    .section-2 .container .right-block {
+        max-width: 336px;
+        padding: 80px 59px;
+    }
+    .section-2 .container .right-block .title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+    .section-2 .container .right-block .description {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-2 {
+        padding: 40px 0 60px;
+    }
+    .section-2 .container {
+        flex-direction: column;
+    }
+    .section-2 .container .left-block {
+        margin-bottom: 40px;
+    }
+    .section-2 .container .left-block .title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 32px;
+    }
+    .section-2 .container .left-block .list-item {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .section-2 .container .left-block .list-item:before {
+        width: 24px;
+        height: 24px;
+        top: calc(50% - 12px);
+    }
+    .section-2 .container .left-block .list-item.last {
+        margin-bottom: 12px;
+    }
+    .section-2 .container .left-block .prompt {
+
+    }
+    .section-2 .container .right-block {
+        padding: 73px 47px;
+    }
+    .section-2 .container .right-block .title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .section-2 .container .right-block .description {
+
+    }
+}

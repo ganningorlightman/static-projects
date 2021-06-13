@@ -1,0 +1,17 @@
+.description-block {
+	width: 100%;
+	margin: 24px 0;
+}
+
+.description-block .title {
+	font-size: 26px;
+    line-height: 1.2;
+	font-weight: bold;
+    margin: 0 0 24px;
+}
+
+.description-block .text {
+	overflow: auto;
+	background: #fff5d7;
+	border: 1px dashed #d2bf94;
+}

@@ -1,0 +1,7 @@
+@import '../base.css';
+@import '../component/page-container/style.css';
+@import '../component/footer/style.css';
+@import '../component/header/style.css';
+@import '../component/description-block/style.css';
+@import '../component/button/style.css';
+@import '../component/modal/style.css';

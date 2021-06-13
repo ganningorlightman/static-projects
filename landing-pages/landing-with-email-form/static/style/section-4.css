@@ -1,0 +1,120 @@
+.section-4 {
+    display: flex;
+    width: 100%;
+    padding: 120px 0;
+}
+.section-4 .container {
+    flex-direction: column;
+}
+.section-4 .container .title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 60px;
+}
+.section-4 .container .list {
+    display: flex;
+    justify-content: space-between;
+}
+.section-4 .container .list .list-item {
+    display: flex;
+    width: 100%;
+    max-width: 280px;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #DDDFE0;
+    border-radius: 4px;
+    padding: 55px 33px 28px;
+}
+.section-4 .container .list .list-item .img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 44px;
+}
+.section-4 .container .list .list-item .text {
+    max-width: 222px;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .section-4 {
+
+    }
+    .section-4 .container {
+
+    }
+    .section-4 .container .title {
+
+    }
+    .section-4 .container .list {
+        flex-wrap: wrap;
+    }
+    .section-4 .container .list .list-item {
+        max-width: 440px;
+        padding: 32px 33px;
+        margin-bottom: 24px;
+    }
+    .section-4 .container .list .list-item .img {
+
+    }
+    .section-4 .container .list .list-item .text {
+        max-width: 270px;
+    }
+}
+
+@media (max-width: 992px) {
+    .section-4 {
+        padding: 60px 0;
+    }
+    .section-4 .container {
+
+    }
+    .section-4 .container .title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 40px;
+    }
+    .section-4 .container .list {
+
+    }
+    .section-4 .container .list .list-item {
+        max-width: 336px;
+    }
+    .section-4 .container .list .list-item .img {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 20px;
+    }
+    .section-4 .container .list .list-item .text {
+
+    }
+}
+
+@media (max-width: 768px) {
+    .section-4 {
+        padding: 40px 0;
+    }
+    .section-4 .container {
+
+    }
+    .section-4 .container .title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 44px;
+    }
+    .section-4 .container .list {
+
+    }
+    .section-4 .container .list .list-item {
+        max-width: none;
+        padding: 26px 33px 24px;
+        margin-bottom: 12px;
+    }
+    .section-4 .container .list .list-item .img {
+        margin-bottom: 12px;
+    }
+    .section-4 .container .list .list-item .text {
+        max-width: 254px;
+    }
+}

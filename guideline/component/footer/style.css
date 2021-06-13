@@ -1,0 +1,24 @@
+.footer {
+    position: relative;
+    background: #333;
+    height: 60px;
+}
+
+.footer .container {
+    background: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.footer .link {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    width: 34px;
+    margin: auto 0;
+    color: white;
+    text-decoration: none;
+}

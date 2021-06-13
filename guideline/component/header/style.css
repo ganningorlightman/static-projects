@@ -1,0 +1,17 @@
+@import '../link-switch/style.css';
+
+.header {
+    position: relative;
+    box-sizing: border-box;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 24px;
+}
+
+.header .container {
+    display: flex;
+	height: 100%;
+	flex-wrap: wrap;
+    justify-content: space-around;
+	border: none;
+}

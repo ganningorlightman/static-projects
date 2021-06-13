@@ -1,0 +1,6 @@
+@import '../base.css';
+@import '../component/page-container/style.css';
+@import '../component/footer/style.css';
+@import '../component/header/style.css';
+@import '../component/description-block/style.css';
+@import '../component/dropdown/style.css';

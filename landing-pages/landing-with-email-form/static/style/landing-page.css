@@ -1,0 +1,47 @@
+@import "normalize.css";
+@import "base.css";
+@import "container.css";
+
+@import "button.css";
+@import "input.css";
+@import "checkbox.css";
+@import "dropdown.css";
+@import "file-upload.css";
+@import "burger.css";
+@import "modal.css";
+@import "header.css";
+@import "footer.css";
+
+@import "section-1.css";
+@import "section-2.css";
+@import "section-3.css";
+@import "section-4.css";
+@import "section-5.css";
+@import "section-6.css";
+
+.landing-page {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+@media (max-width: 1200px) {
+    .landing-page {
+
+    }
+}
+
+@media (max-width: 992px) {
+    .landing-page {
+        padding-top: 72px;
+    }
+}
+
+@media (max-width: 768px) {
+    .landing-page {
+        padding-top: 56px;
+    }
+}

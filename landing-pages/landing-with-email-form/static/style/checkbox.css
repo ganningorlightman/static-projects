@@ -1,0 +1,45 @@
+.checkbox {
+    display: flex;
+    align-items: start;
+}
+.checkbox._error .checkbox-label::before {
+    box-shadow: 0 0 15px red;
+}
+.checkbox-input {
+    display: none;
+}
+.checkbox-input:checked + .checkbox-label::after {
+    transform: scale(1);
+}
+.checkbox-label {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+    cursor: pointer;
+}
+.checkbox-label::before {
+    content: "";
+    flex: 0 0 30px;
+    height: 30px;
+    align-self: flex-start;
+    background-color: #EEF2F7;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.checkbox-label::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    background: url("../img/checkbox.png");
+    border-radius: 4px;
+    transform: scale(0);
+    transition: transform 0.5s ease 0s;
+}
+
+.checkbox-label .agreement-link {
+    color: #1939DE;
+}

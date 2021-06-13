@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Button</title>
+</head>
+<body>
+
+    <div class="page-container">
+
+        <header class="header">
+            <div class="container">
+                <a class="link-switch" href="../../index.html">Main</a>
+                <a class="link-switch active" href="./button.html">Button</a>
+                <a class="link-switch" href="../input/input.html">Input</a>
+                <a class="link-switch" href="../textarea/textarea.html">Textarea</a>
+                <a class="link-switch" href="../table/table.html">Table</a>
+				<a class="link-switch" href="../popover/popover.html">Popover</a>
+                <a class="link-switch" href="../dropdown/dropdown.html">Dropdown</a>
+                <a class="link-switch" href="../modal/modal.html">Modal</a>
+            </div>
+        </header>
+
+        <div class="container content">
+            <h1 class="title">Button</h1>
+            <div class="blocks-container">
+				<button class="button">text</button>
+				<button class="button" disabled>text</button>
+				
+				<div class="description-block">
+					<div class="title">Using html</div>
+					<div class="text">
+					&lt;button class="button"&gt;text&lt;/button&gt;<br/>
+					&lt;button class="button" disabled&gt;text&lt;/button&gt;
+					</div>
+				</div>
+				<div class="description-block">
+					<div class="title">Using css</div>
+					<div class="text">
+						<pre>
+.description-block {
+	width: 100%;
+	margin: 24px 0;
+}
+
+.description-block .title {
+	font-size: 26px;
+	line-height: 1.2;
+	font-weight: bold;
+	margin: 0 0 24px;
+}
+
+.description-block .text {
+	background: #fff5d7;
+	border: 1px dashed #d2bf94;
+}
+.button:disabled {
+	color: #4a4a4a;
+    background: #0000000d;
+    box-shadow: none;
+    pointer-events: none;
+}
+						</pre>
+					</div>
+				</div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <a class="link" href="/">Logo</a>
+                <a class="link" href="/policy">Policy</a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
+
+<link rel="stylesheet" href="../../page-style/button-page.css" >

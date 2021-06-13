@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Table</title>
+</head>
+<body>
+
+    <div class="page-container">
+
+        <header class="header">
+            <div class="container">
+                <a class="link-switch" href="../../index.html">Main</a>
+                <a class="link-switch" href="../button/button.html">Button</a>
+                <a class="link-switch" href="../input/input.html">Input</a>
+                <a class="link-switch" href="../textarea/textarea.html">Textarea</a>
+                <a class="link-switch active" href="./table.html">Table</a>
+				<a class="link-switch" href="../popover/popover.html">Popover</a>
+                <a class="link-switch" href="../dropdown/dropdown.html">Dropdown</a>
+                <a class="link-switch" href="../modal/modal.html">Modal</a>
+            </div>
+        </header>
+
+        <div class="container content">
+            <h1 class="title">Table</h1>
+            <div class="blocks-container">
+				<div class="table-wrap">
+					<table class="table">
+						<tr>
+						  <th class="head">Company</th>
+						  <th class="head">Q1</th>
+						  <th class="head">Q2</th>
+						  <th class="head">Q3</th>
+						  <th class="head">Q4</th>
+						  </tr>
+						 <tr>
+						  <td class="row">Microsoft</td>
+						  <td class="row">20.3</td>
+						  <td class="row">30.5</td>
+						  <td class="row">23.5</td>
+						  <td class="row">40.3</td>
+						 </tr>
+						<tr>
+						  <td class="row">Google</td>
+						  <td class="row">50.2</td>
+						  <td class="row">40.63</td>
+						  <td class="row">45.23</td>
+						  <td class="row">39.3</td>
+						</tr>
+						<tr>
+						  <td class="row">Apple</td>
+						  <td class="row">25.4</td>
+						  <td class="row">30.2</td>
+						  <td class="row">33.3</td>
+						  <td class="row">36.7</td>
+						</tr>
+						<tr>
+						  <td class="row">IBM</td>
+						  <td class="row">20.4</td>
+						  <td class="row">15.6</td>
+						  <td class="row">22.3</td>
+						  <td class="row">29.3</td>
+						</tr>
+					</table>
+				</div>
+				<div class="description-block">
+					<div class="title">Using html</div>
+					<div class="text">
+						<pre>
+&lt;table class="table"&gt;
+	&lt;tr&gt;
+	  &lt;th class="head">Company&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+	  &lt;td class="row">Microsoft&lt;/td&gt;
+	&lt;/tr>
+	&lt;tr>
+	  &lt;td class="row">Google&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+						</pre>
+					</div>
+				</div>
+				<div class="description-block">
+					<div class="title">Using css</div>
+					<div class="text">
+						<pre>
+.table {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	text-align: left;
+	border-collapse: separate;
+	border-spacing: 5px;
+	background: #ECE9E0;
+	color: #656665;
+	border: 16px solid #ECE9E0;
+	border-radius: 20px;
+}
+.head{
+	font-size: 18px;
+	padding: 10px;
+}
+.row {
+	background: #F5D7BF;
+	padding: 10px;
+}
+						</pre>
+					</div>
+				</div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <a class="link" href="/">Logo</a>
+                <a class="link" href="/policy">Policy</a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
+
+<link rel="stylesheet" href="../../page-style/table-page.css" >

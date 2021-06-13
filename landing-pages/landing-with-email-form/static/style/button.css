@@ -1,0 +1,23 @@
+.button {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    user-select: none;
+    padding: 10px 16px;
+    outline: none;
+    border-radius: 3px;
+    background: #1939DE;
+    transition: all 0.2s linear 0s;
+}
+.button:hover {
+    background: #195EE6;
+}
+
+@media (max-width: 992px) {
+    .button {
+        line-height: 20px;
+        padding: 12px 33px;
+    }
+}

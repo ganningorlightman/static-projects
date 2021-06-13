@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Popover</title>
+	<script defer src="actions.js"></script>
+	<link defer rel="stylesheet" href="../../page-style/popover-page.css" >
+</head>
+<body>
+
+    <div class="page-container">
+
+        <header class="header">
+            <div class="container">
+                <a class="link-switch" href="../../index.html">Main</a>
+                <a class="link-switch" href="../button/button.html">Button</a>
+                <a class="link-switch" href="../input/input.html">Input</a>
+                <a class="link-switch" href="../textarea/textarea.html">Textarea</a>
+                <a class="link-switch" href="../table/table.html">Table</a>
+                <a class="link-switch active" href="./popover.html">Popover</a>
+				<a class="link-switch" href="../dropdown/dropdown.html">Dropdown</a>
+				<a class="link-switch" href="../modal/modal.html">Modal</a>
+            </div>
+        </header>
+
+        <div class="container content">
+            <h1 class="title">Popover</h1>
+            <div class="blocks-container">
+			
+        <div class="container-popover">
+            <div class="popover" data-trigger="click">
+                <button class="button">Click me</button>
+                <div class="popover-toggle hidden">about something</div>
+            </div>
+            <div class="popover" data-trigger="hover">
+                <button class="button">Hover me</button>
+                <div class="popover-toggle hidden">about something</div>
+            </div>
+        </div>
+
+				<div class="description-block">
+					<div class="title">Using html</div>
+					<div class="text">
+						<pre>
+&lt;div class="popover" data-trigger="click"&gt;
+	&lt;button class="button"&gt;Click me&lt;/button&gt;
+	&lt;div class="popover-toggle hidden">about something&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="popover" data-trigger="hover"&gt;
+	&lt;button class="button"&gt;Hover me&lt;/button&gt;
+	&lt;div class="popover-toggle hidden">about something&lt;/div&gt;
+&lt;/div&gt;
+						</pre>
+					</div>
+				</div>
+				<div class="description-block">
+					<div class="title">Using css</div>
+					<div class="text">
+						<pre>
+.popover {
+    display: inline-block;
+    position: relative;
+}
+
+.popover .popover-toggle {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background: #ff9200;
+    left: 0;
+    margin-top: 10px;
+}
+
+.popover .hidden {
+    display: none;
+}
+						</pre>
+					</div>
+				</div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <a class="link" href="/">Logo</a>
+                <a class="link" href="/policy">Policy</a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>

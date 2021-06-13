@@ -1,0 +1,18 @@
+.textarea {
+	display:block;
+	max-width:700px;
+	min-height:180px;
+	resize:vertical;
+	outline:none;
+	border-width:2px;
+	border-radius:2px;
+	font-size:18pt;
+	text-align:center;
+	background:#ecf0f1;
+	color:rgb(52, 73, 94);
+}
+.textarea:disabled {
+	color: #848282;
+	pointer-events: none;
+    background-color: #0000000d;
+}

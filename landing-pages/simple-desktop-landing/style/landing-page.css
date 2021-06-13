@@ -1,0 +1,20 @@
+@import "normalize.css";
+@import 'base.css';
+@import 'button.css';
+@import 'header.css';
+@import 'main-block.css';
+@import 'service.css';
+@import 'agency.css';
+
+.page-container {
+    display: flex;
+	position: relative;
+	width: 100%;
+    min-width: 1260px;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-height: 100%;
+    background: #F5F5F6;
+	margin: 0 auto;
+}
+

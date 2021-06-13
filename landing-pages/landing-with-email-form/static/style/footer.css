@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background: #EEF2F7;
+}
+.footer .container {
+
+}
+.footer .container .footer-left-block {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media (max-width: 1200px) {
+    .footer .container {
+
+    }
+}
+
+@media (max-width: 992px) {
+    .footer {
+        height: 80px;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer .container {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+
+    }
+    .footer .container {
+
+    }
+}

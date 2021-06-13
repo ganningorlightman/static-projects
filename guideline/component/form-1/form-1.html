@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Form-1</title>
+    <script defer src="actions.js"></script>
+    <link rel="stylesheet" href="../../page-style/form-1-page.css">
+</head>
+<body>
+
+<div class="page-container">
+
+    <header class="header">
+        <div class="container">
+            <a class="link-switch" href="../../index.html">Main</a>
+            <a class="link-switch" href="../button/button.html">Button</a>
+            <a class="link-switch" href="../input/input.html">Input</a>
+            <a class="link-switch" href="../textarea/textarea.html">Textarea</a>
+            <a class="link-switch" href="../table/table.html">Table</a>
+            <a class="link-switch" href="../popover/popover.html">Popover</a>
+            <a class="link-switch" href="../dropdown/dropdown.html">Dropdown</a>
+            <a class="link-switch" href="../modal/modal.html">Modal</a>
+        </div>
+    </header>
+
+    <div class="container content">
+
+        <div class="wrapper">
+            <div class="form">
+                <form id="form" class="form-body" action="#">
+                    <h1 class="form-title">Отправка данных на почту</h1>
+                    <div class="form-item">
+                        <label for="form-name" class="form-label">Имя*:</label>
+                        <input id="form-name" type="text" name="name" class="form-input _req">
+                    </div>
+                    <div class="form-item">
+                        <label for="form-email" class="form-label">E-mail*:</label>
+                        <input id="form-email" type="text" name="email" class="form-input _req _email">
+                    </div>
+                    <div class="form-item">
+                        <div class="form-label">Левша или правша?</div>
+                        <div class="options">
+                            <div class="options-item">
+                                <input id="form-right-handed" checked type="radio" value="right" name="hand" class="options-input">
+                                <label for="form-right-handed" class="options-label">Правша</label>
+                            </div>
+                            <div class="options-item">
+                                <input id="form-left-handed" type="radio" value="left" name="hand" class="options-input">
+                                <label for="form-left-handed" class="options-label">Левша</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <label for="form-message" class="form-label">Сообщение:</label>
+                        <textarea id="form-message" name="message" class="form-input"></textarea>
+                    </div>
+                    <div class="form-item">
+                        <div class="form-label">Возраст:</div>
+                        <select name="age" class="select">
+                            <option value="18-25" selected>Молодой</option>
+                            <option value="25-45">Старый</option>
+                            <option value=">45">Супер стар</option>
+                        </select>
+                    </div>
+                    <div class="form-item">
+                        <div class="form-label">Прикрепить фото</div>
+                        <div class="file">
+                            <div class="file-item">
+                                <input id="form-image" accept=".jpg, .png, .gif" type="file" name="image" class="file-input">
+                                <div class="file-button">Выбрать</div>
+                            </div>
+                            <div id="form-preview" class="file-preview"></div>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <div class="checkbox">
+                            <input id="form-agreement" checked type="checkbox" name="agreement" class="checkbox-input _req">
+                            <label for="form-agreement" class="checkbox-label">Я согласен</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="form-button">Отправить</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <a class="link" href="/">Logo</a>
+            <a class="link" href="/policy">Policy</a>
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>

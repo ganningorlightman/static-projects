@@ -1,0 +1,110 @@
+.section-5 {
+    display: flex;
+    width: 100%;
+    background: #F2F2F2 url("../img/section-5-backgroung.png") right top no-repeat;
+    padding: 120px 0 125px;
+}
+.section-5 .container {
+    flex-direction: column;
+}
+.section-5 .container .title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 39px;
+}
+.section-5 .container .price {
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 117px;
+    color: #1939DE;
+    margin-bottom: 22px;
+}
+.section-5 .container .price .ruble{
+    font-weight: normal;
+}
+.section-5 .container .subtitle {
+    max-width: 386px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.section-5 .container .description {
+    max-width: 386px;
+}
+
+@media (max-width: 1200px) {
+    .section-5 {
+
+    }
+    .section-5 .container {
+
+    }
+    .section-5 .container .title {
+
+    }
+    .section-5 .container .price {
+
+    }
+    .section-5 .container .subtitle {
+
+    }
+    .section-5 .container .description {
+
+    }
+}
+
+@media (max-width: 992px) {
+    .section-5 {
+        background-size: cover;
+        padding: 60px 0 80px;
+    }
+    .section-5 .container {
+
+    }
+    .section-5 .container .title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 48px;
+    }
+    .section-5 .container .price {
+        font-size: 64px;
+        line-height: 75px;
+        margin-bottom: 17px;
+    }
+    .section-5 .container .subtitle {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .section-5 .container .description {
+
+    }
+}
+
+@media (max-width: 768px) {
+    .section-5 {
+        background: #F2F2F2 url("../img/section-5-backgroung-mobile.png") center top no-repeat;
+        padding: 40px 0 137px;
+    }
+    .section-5 .container {
+
+    }
+    .section-5 .container .title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 36px;
+    }
+    .section-5 .container .price {
+        font-size: 48px;
+        line-height: 56px;
+        margin-bottom: 20px;
+    }
+    .section-5 .container .subtitle {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .section-5 .container .description {
+        line-height: 20px;
+    }
+}

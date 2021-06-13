@@ -1,0 +1,17 @@
+.input {
+ padding: 10px;
+ font-size: 30px;
+ border: 10px solid rgba(255, 255, 255, .5);
+ box-shadow:
+ 0 2px 10px rgba(0, 0, 0, .25) inset,
+ 0 2px 10px rgba(0, 0, 0, .25);
+ border-radius: 10px;
+ background: rgba(255, 255, 255, .5);
+ outline: none;
+ color: #333;
+ width: 50%;
+}
+.input:disabled {
+	background: #0000000d;
+    pointer-events: none;
+}

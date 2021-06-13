@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Textarea</title>
+</head>
+<body>
+
+    <div class="page-container">
+
+        <header class="header">
+            <div class="container">
+                <a class="link-switch" href="../../index.html">Main</a>
+                <a class="link-switch" href="../button/button.html">Button</a>
+                <a class="link-switch" href="../input/input.html">Input</a>
+                <a class="link-switch active" href="./textarea.html">Textarea</a>
+                <a class="link-switch" href="../table/table.html">Table</a>
+				<a class="link-switch" href="../popover/popover.html">Popover</a>
+                <a class="link-switch" href="../dropdown/dropdown.html">Dropdown</a>
+                <a class="link-switch" href="../modal/modal.html">Modal</a>
+            </div>
+        </header>
+
+        <div class="container content">
+            <h1 class="title">Textarea</h1>
+            <div class="blocks-container">
+				<textarea class="textarea">start text</textarea>
+				<textarea class="textarea" disabled>disabled</textarea>
+				
+				<div class="description-block">
+					<div class="title">Using html</div>
+					<div class="text">
+					&lt;textarea class="textarea"&gt;start text&lt;/textarea&gt;<br/>
+					&lt;textarea class="textarea" disabled&gt;disabled&lt;/textarea&gt;
+					</div>
+				</div>
+				<div class="description-block">
+					<div class="title">Using css</div>
+					<div class="text">
+						<pre>
+.textarea {
+	display:block;
+	max-width:700px;
+	min-height:180px;
+	resize:vertical;
+	outline:none;
+	border-width:2px;
+	border-radius:2px;
+	font-size:18pt;
+	text-align:center;
+	background:#ecf0f1;
+	color:rgb(52, 73, 94);
+}
+.textarea:disabled {
+	color: #848282;
+	pointer-events: none;
+    background-color: #0000000d;
+}
+						</pre>
+					</div>
+				</div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <a class="link" href="/">Logo</a>
+                <a class="link" href="/policy">Policy</a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
+
+<link rel="stylesheet" href="../../page-style/textarea-page.css" >

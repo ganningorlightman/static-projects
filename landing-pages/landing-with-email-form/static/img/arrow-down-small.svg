@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="6px" viewBox="0 0 10 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-down-small</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="04_Profile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04_Profile-1440" transform="translate(-875.000000, -610.000000)" fill="#282C32">
+            <g id="Content" transform="translate(345.000000, 140.000000)">
+                <g id="localization" transform="translate(25.000000, 396.000000)">
+                    <g id="language" transform="translate(89.000000, 60.000000)">
+                        <path d="M426,14.7581818 L425.297,14 L420.9935,18.506 L420.5345,18.0254545 L420.537,18.0281818 L416.7135,14.0245455 L416,14.7712727 C417.0565,15.878 420.007,18.9674545 420.9935,20 C421.7265,19.2330909 421.012,19.9809091 426,14.7581818" id="arrow-down-small"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

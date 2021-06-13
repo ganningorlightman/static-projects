@@ -1,0 +1,13 @@
+.link-switch {
+    color: #0704a9;
+	font-weight: bold;
+	text-decoration: none;
+	margin-bottom: 15px;
+}
+.link-switch:hover{
+	color: #6663ff;
+}
+.link-switch.active {
+	border-bottom: 5px solid #ff0000;
+    border-radius: 5px;
+}
