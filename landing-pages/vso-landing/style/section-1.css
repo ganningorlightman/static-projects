@@ -1,0 +1,144 @@
+.section-1 {
+    display: flex;
+    width: 100%;
+    padding: 230px 0 60px;
+    background:
+    url('../img/background/box-yellow.png') 1210px 200px/auto auto no-repeat,
+    url('../img/background/box-grey.svg') 1140px 300px/auto auto no-repeat,
+    url('../img/background/box-purle.png') 250px 660px/auto auto no-repeat,
+    url('../img/background/box-green.png') 160px 710px/auto auto no-repeat,
+    url('../img/background/box-pink.png') 1135px 1295px/auto auto no-repeat,
+    url('../img/background/box-green.png') 1200px 1360px/auto auto no-repeat,
+    linear-gradient(0.5turn, #519CFB, #0773FA);
+}
+.section-1 .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-1 .container .link {
+    color: #033573;
+}
+.section-1 .container .link:hover {
+    color: #FFFFFF;
+}
+
+.section-1 .container .how-to-by-block {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-1 .container .how-to-by-block .title {
+    font-size: 51px;
+    line-height: 80px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section-1 .container .how-to-by-block .subtitle {
+    max-width: 700px;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 42px;
+}
+.section-1 .container .how-to-by-block .listing-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 440px;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 140px;
+}
+.section-1 .container .how-to-by-block .listing-wrapper .listing-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-1 .container .how-to-by-block .listing-wrapper .listing-col .listing-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.section-1 .container .how-to-by-block .listing-wrapper .listing-col .listing-elem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 179px;
+    height: 71px;
+    overflow: hidden;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-bottom: 22px;
+}
+.section-1 .container .how-to-by-block .listing-wrapper .listing-col .listing-elem-orange {
+    background: #FF5F00;
+}
+.section-1 .container .how-to-by-block .listing-wrapper .listing-col .listing-elem img {
+    object-fit: contain;
+}
+.section-1 .container .how-to-by-block .description {
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section-1 .container .how-to-add-block {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-1 .container .how-to-add-block .title {
+    font-size: 44px;
+    line-height: 80px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-1 .container .how-to-add-block .list-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    justify-content: space-between;
+    align-items: start;
+}
+.section-1 .container .how-to-add-block .list-wrapper .list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-1 .container .how-to-add-block .list-wrapper .list-item img {
+    margin-bottom: 25px;
+}
+.section-1 .container .how-to-add-block .list-wrapper .list-item .description {
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+    max-width: 364px;
+    font-size: 18px;
+    line-height: 28px;
+    padding-left: 80px;
+}
+.section-1 .container .how-to-add-block .list-wrapper .list-item .description .description-number {
+    display: flex;
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    top: -5px;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    color: #0773FA;
+    font-weight: bold;
+    font-size: 28px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+

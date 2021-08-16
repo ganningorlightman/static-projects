@@ -1,0 +1,20 @@
+.button {
+    font-family: 'DM Sans', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+    user-select: none;
+    padding: 5px 30px;
+    outline: none;
+    border-radius: 7px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    transition: all 0.3s linear;
+}
+.button:hover {
+    color: #0060E0;
+    background: #FFFFFF;
+}

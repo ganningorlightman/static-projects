@@ -1,0 +1,83 @@
+.section-2 {
+    display: flex;
+    width: 100%;
+    color: #283049;
+    padding: 30px 0 75px;
+}
+.section-2 .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-2 .container .title {
+    font-size: 44px;
+    line-height: 80px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section-2 .container .description {
+    max-width: 690px;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+.section-2 .container table {
+    font-family: 'DM Sans', sans-serif;
+    width: 900px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    border-bottom: 1px solid #a3cafb;
+    border-spacing: 0 5px;
+    margin-bottom: 30px;
+}
+.section-2 .container table tr th {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #a3cafb;
+}
+.section-2 .container table tr th.star-wrapper {
+    position: relative;
+}
+.section-2 .container table tr th.star-wrapper .star{
+    position: absolute;
+    color: #187BF5;
+    font-size: 30px;
+    top: -5px;
+    right: 115px;
+}
+.section-2 .container table tr td {
+    width: 100%;
+    max-width: 25%;
+    vertical-align: top;
+    padding-bottom: 15px;
+}
+.section-2 .container table tr td:nth-child(2),
+.section-2 .container table tr td:nth-child(3){
+    width: 100%;
+    max-width: 15%;
+}
+.section-2 .container table tr td.blue {
+    color: #187BF5;
+}
+.section-2 .container table tr td.orange {
+    color: #FF655F;
+}
+.section-2 .container .table-description {
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    position: relative;
+    max-width: 500px;
+    align-self: start;
+    font-size: 18px;
+    line-height: 28px;
+    padding-left: 160px;
+}
+.section-2 .container .table-description .star {
+    position: absolute;
+    color: #187BF5;
+    top: 3px;
+    left: 125px;
+    font-size: 50px;
+}
